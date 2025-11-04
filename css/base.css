@@ -14,15 +14,31 @@
   landscape:    orientation: landscape
   retina:       min-resolution: 192dpi
 ****************************** */
-
+body {
+  background-color: #fbfbfb;
+}
 
 h1 {
   margin-bottom: 1rem;
   text-align: center;
+
+  span {
+    display: none;
+  }
+
+  img {
+    width: 230px;
+    margin-top: -2.4rem;
+  }
 }
 
-/* Grid Container */
+/*******************************
+Grid Container
+*******************************/
 .gr-container {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+
   .gr-sub-container {
     display: grid;
 
@@ -52,16 +68,15 @@ h1 {
       border-left: none;
     }
 
-    .gr-item:nth-child(n + 3):nth-child(-n + 4) {
+    .gr-item:not(:first-child):not(:nth-child(2)) {
       border-top: none;
-      border-bottom: none;
     }
   }
 
   /* Small only */
   @media screen and (max-width: 639px) {
-    .gr-item:not(:first-child) {
-      border-top: none;
+    .gr-item:not(:last-child) {
+      border-bottom: none;
     }
   }
 
@@ -86,4 +101,44 @@ h1 {
     color: #fcfcfc;
   }
   
+}
+
+
+/*******************************
+Details and summary
+*******************************/
+/* Lets add a margin when detials are closed */
+details {
+  margin-bottom: .5rem;
+}
+
+/*******************************
+Table styles
+*******************************/
+/* Responsive Table */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 639px) {
+  .table-responsive table {
+    min-width: 600px;
+    font-size: 0.95rem;
+  }
+}
+
+table {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+
+  th {
+    font-size: .75rem;
+    white-space: nowrap;
+    word-break: normal;
+  }
+
+  tr td:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+  }
 }
