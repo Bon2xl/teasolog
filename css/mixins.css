@@ -1,0 +1,77 @@
+/* ******************************
+  Breakpoints Reference (for CSS)
+  small only:   max-width: 639px
+  medium:       min-width: 640px
+  medium only:  min-width: 640px and max-width: 1023px
+  medium down:  max-width: 1023px
+  large:        min-width: 1024px
+  large only:   min-width: 1024px and max-width: 1199px
+  large down:   max-width: 1199px
+  xlarge:       min-width: 1200px
+  xlarge only:  min-width: 1200px and max-width: 1439px
+  xlarge down:  max-width: 1439px
+  xxlarge:      min-width: 1440px
+  landscape:    orientation: landscape
+  retina:       min-resolution: 192dpi
+****************************** */
+@mixin breakpoint($values) {
+  $val: '#{nth($values, 1)}';
+
+  @if (length($values) == 2) {
+    $val:'#{nth($values, 1)} #{nth($values, 2)}';
+  }
+
+  @if $val == 'small only' {
+    @media screen and (max-width: 39.9375em) {
+      @content;
+    }
+  } @else if $val == 'medium' {
+    @media screen and (min-width: 40em) {
+      @content;
+    }
+  } @else if $val == 'medium only' {
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      @content;
+    }
+  } @else if $val == 'medium down' {
+    @media screen and (max-width: 63.9375em) {
+      @content;
+    }
+  } @else if $val == 'large' {
+    @media screen and (min-width: 64em) {
+      @content;
+    }
+  } @else if $val == 'large only' {
+    @media screen and (min-width: 64em) and (max-width: 74.9375em) {
+      @content;
+    }
+  } @else if $val == 'large down' {
+    @media screen and (max-width: 74.9375em) {
+      @content;
+    }
+  } @else if $val == 'xlarge' {
+    @media screen and (min-width: 75em) {
+      @content;
+    }
+  } @else if $val == 'xlarge only' {
+    @media screen and (min-width: 75em) and (max-width: 89.9375em) {
+      @content;
+    }
+  } @else if $val == 'xlarge down' {
+    @media screen and (max-width: 89.9375em) {
+      @content;
+    }
+  } @else if $val == 'xxlarge' {
+    @media screen and (min-width: 90em) {
+      @content;
+    }
+  } @else if $val == 'landscape' {
+    @media screen and (orientation: landscape) {
+      @content;
+    }
+  } @else if $val == 'retina' {
+    @media (min-resolution: 192dpi) {
+      @content;
+    }
+  }  
+}

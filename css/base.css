@@ -1,0 +1,88 @@
+/* ******************************
+  Breakpoints Reference (for CSS)
+  small only:   max-width: 639px
+  medium:       min-width: 640px
+  medium only:  min-width: 640px and max-width: 1023px
+  medium down:  max-width: 1023px
+  large:        min-width: 1024px
+  large only:   min-width: 1024px and max-width: 1199px
+  large down:   max-width: 1199px
+  xlarge:       min-width: 1200px
+  xlarge only:  min-width: 1200px and max-width: 1439px
+  xlarge down:  max-width: 1439px
+  xxlarge:      min-width: 1440px
+  landscape:    orientation: landscape
+  retina:       min-resolution: 192dpi
+****************************** */
+
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Grid Container */
+.gr-container {
+  .gr-sub-container {
+    display: grid;
+
+    /* Medium Up */
+    @media screen and (min-width: 640px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    /* Small Only */
+    @media screen and (min-max-width: 639px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .gr-item {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;  
+  }
+
+  /* 
+  Medium Up
+  - Grid breakpoints
+  */
+  @media screen and (min-width: 640px) {
+    .gr-item:nth-child(even) {
+      border-left: none;
+    }
+
+    .gr-item:nth-child(n + 3):nth-child(-n + 4) {
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+
+  /* Small only */
+  @media screen and (max-width: 639px) {
+    .gr-item:not(:first-child) {
+      border-top: none;
+    }
+  }
+
+  h3 {
+    margin-bottom: 0rem;
+  }
+
+  p.phonetics {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    color: lightslategrey;
+    font-style: italic;
+  }
+
+  p.translations {
+    margin-top: 0;
+  }
+
+  hr {
+    margin-inline: 1rem;
+    border-width: 0.5px;
+    color: #fcfcfc;
+  }
+  
+}
