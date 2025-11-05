@@ -1,0 +1,112 @@
+[
+  {
+    "words": "Tayo na.",
+    "phonetics": "TA-yo na.",
+    "translation": "Let's go. (Inclusive)"
+  },
+  {
+    "words": "Kami ay Pilipino.",
+    "phonetics": "KA-mi ay Pi-li-PI-no.",
+    "translation": "We are Filipinos. (Exclusive)"
+  },
+  {
+    "words": "Mag-aral tayo.",
+    "phonetics": "Mag-a-RAL TA-yo.",
+    "translation": "Let's study. (Inclusive)"
+  },
+  {
+    "words": "Tayo ay magkaibigan.",
+    "phonetics": "TA-yo ay mag-ka-i-BI-gan.",
+    "translation": "We are friends. (Inclusive)"
+  },
+  {
+    "words": "Aalis na kami.",
+    "phonetics": "a-a-LIS na KA-mi.",
+    "translation": "We are leaving now. (Exclusive)"
+  },
+  {
+    "words": "Kain na tayo.",
+    "phonetics": "Ka-IN na TA-yo.",
+    "translation": "Let's eat now. (Inclusive)"
+  },
+  {
+    "words": "Kami ay pagod.",
+    "phonetics": "KA-mi ay PA-god.",
+    "translation": "We are tired. (Exclusive)"
+  },
+  {
+    "words": "Saan tayo pupunta?",
+    "phonetics": "Sa-AN TA-yo poo-poon-TA?",
+    "translation": "Where are we going? (Inclusive)"
+  },
+  {
+    "words": "Naghihintay kami.",
+    "phonetics": "Nag-hi-hin-TAY KA-mi.",
+    "translation": "We are waiting. (Exclusive)"
+  },
+  {
+    "words": "Gusto nating uminom ng kape.",
+    "phonetics": "GUS-to NA-ting oo-mi-NOM nang KA-pe.",
+    "translation": "We want to drink coffee. (Inclusive)"
+  },
+  {
+    "words": "Bahay namin 'yan.",
+    "phonetics": "BA-hay NA-min 'yan.",
+    "translation": "That is our house. (Exclusive)"
+  },
+  {
+    "words": "Manood tayo ng sine.",
+    "phonetics": "Ma-noo-OD TA-yo nang SI-ne.",
+    "translation": "Let's watch a movie. (Inclusive)"
+  },
+  {
+    "words": "Hindi namin alam.",
+    "phonetics": "HIN-di NA-min a-LAM.",
+    "translation": "We don't know. (Exclusive)"
+  },
+  {
+    "words": "Kailangan nating magpahinga.",
+    "phonetics": "Ka-i-LA-ngan NA-ting mag-pa-hi-NGA.",
+    "translation": "We need to rest. (Inclusive)"
+  },
+  {
+    "words": "Umuwi na kami.",
+    "phonetics": "U-mu-WI na KA-mi.",
+    "translation": "We already went home. (Exclusive)"
+  },
+  {
+    "words": "Mag-usap tayo.",
+    "phonetics": "Mag-OO-sap TA-yo.",
+    "translation": "Let's talk. (Inclusive)"
+  },
+  {
+    "words": "Wala kaming pera.",
+    "phonetics": "WA-la ka-MING PE-ra.",
+    "translation": "We don't have money. (Exclusive)"
+  },
+  {
+    "words": "Ito ay para sa atin.",
+    "phonetics": "I-to ay pa-RA sa A-tin.",
+    "translation": "This is for us. (Inclusive)"
+  },
+  {
+    "words": "Nagtatrabaho kami.",
+    "phonetics": "Nag-tra-tra-BA-ho KA-mi.",
+    "translation": "We are working. (Exclusive)"
+  },
+  {
+    "words": "Pamilya namin 'to.",
+    "phonetics": "Pa-mil-YA NA-min 'to.",
+    "translation": "This is our family. (Exclusive)"
+  },
+  {
+    "words": "Tayo'y magdasal.",
+    "phonetics": "TA-yoy mag-da-SAL.",
+    "translation": "Let's pray. (Inclusive)"
+  },
+  {
+    "words": "Naghihintay tayo dito.",
+    "phonetics": "Mag-hi-hin-TAY TA-yo DI-to.",
+    "translation": "We will wait here. (Inclusive)"
+  }
+]
